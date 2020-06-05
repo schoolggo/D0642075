@@ -6,7 +6,7 @@ jdk:
     - openjdk11
 
 install:
-    - gradle assenble
+    - gradle assemble
 
 Script:
     - gradle test
