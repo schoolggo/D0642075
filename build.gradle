@@ -1,11 +1,11 @@
 apply plugin: 'java'
 
+javadoc.options.encoding = 'UTF-8'
+compileJava.options.encoding = 'UTF-8'
+
 tasks.withType(JavaCompile){ //中文碼問題
     options.encoding = 'UTF-8'
 }
-
-javadoc.options.encoding = 'UTF-8'
-compileJava.options.encoding = 'UTF-8'
 
 repositories {
     mavenCentral()
@@ -13,5 +13,5 @@ repositories {
 
 dependencies {
     compile 'commons-codec:commons-codec:1.8'
-    testCompile 'junit:junit:4.+'
+    testImplementation 'junit:junit:4.+'
 }
