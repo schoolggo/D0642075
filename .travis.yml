@@ -1,0 +1,12 @@
+language: java
+os: linux
+dist: xenial
+
+jdk:
+    - openjkd11
+
+install:
+	- gradle assenble
+
+Script:
+	- gradle test
