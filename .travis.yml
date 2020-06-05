@@ -6,7 +6,7 @@ jdk:
     - openjkd11
 
 install:
-	- gradle assenble
+    - gradle assenble
 
 Script:
-	- gradle test
+    - gradle test
