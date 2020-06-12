@@ -1,6 +1,3 @@
-apply plugin: 'java'
-apply plugin: "jacoco"
-
 plugins {
 	id "java"
 	id "jacoco"
